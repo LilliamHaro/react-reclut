@@ -1,0 +1,82 @@
+main {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.puesto {
+  border-bottom: 1px solid #19D3C5;
+  padding:20px 40px;
+  overflow: auto;
+}
+.datos {
+  width: 80%;
+ float: left;
+}
+.datos .titulo-puesto {
+  color: #2699FB;
+  font-size: 1.2em;
+}
+
+.datos .titulo-puesto strong  {
+  text-transform: uppercase;
+  color: #19D3C5;
+}
+
+.actions {
+  width: 20%;
+  float: left;
+  text-align: right;
+}
+.actions p {
+  color: #19D3C5;
+  font-size: 1.2em;
+}
+.actions .btn {
+  background-color: #0e294b;
+  color: #fff;
+}
+
+.box .puesto:last-child {
+  border-bottom: none;
+}
+
+.box.tipo-de-empleo {
+  margin-bottom: 20px;
+}
+.box.tipo-de-empleo h3 {
+  margin: 0;
+  padding: 10px 20px 20px;
+}
+
+.box.tipo-de-empleo .title {
+  border-bottom: 1px solid #19D3C5;
+}
+
+.box.tipo-de-empleo .cuerpo {
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+.box.tipo-de-empleo .cuerpo .input-wrapp {
+ padding: 0px 20px;
+}
+.box.tipo-de-empleo .cuerpo .input-wrapp label {
+  margin-left: 8px;
+ }
+ .datos h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+ }
+
+ @media (max-width:769px) {
+   .datos, .actions {
+     width: 100%;
+     text-align: center;
+   }
+ }

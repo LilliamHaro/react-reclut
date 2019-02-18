@@ -2,8 +2,10 @@
   "name": "magnificpopup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dev.circuit.com.pe/react-reclutamiento",
+  "homepage": "https://www.circuit.com.pe/reclutamiento_react",
   "dependencies": {
+    "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-router-dom": "^4.3.1",

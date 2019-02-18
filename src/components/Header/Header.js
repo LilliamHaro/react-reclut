@@ -3,15 +3,21 @@ import "./Header.css";
 import logoCircuit from "../../assets/logo-circuit.svg";
 import "../../assets/hero.png";
 
+import axios from "axios";
+
 import { Link } from "react-router-dom";
 
 class Header extends Component {
-  constructor() {
-    super();
-    this.state = {};
+  constructor(props) {
+    super(props);
   }
 
   render() {
+    const { titulo } = this.props;
+    const { subtitulo } =  this.props
+    const { imgUrl } =  this.props
+
+
     return (
       <header>
         <nav className="container">
@@ -22,7 +28,8 @@ class Header extends Component {
           </div>
           <ul />
         </nav>
-        <h2>oportunidades laborales</h2>
+        <h2>{this.props.titulo}</h2>
+        <h3>{this.props.subtitulo}</h3>
       </header>
     );
   }
